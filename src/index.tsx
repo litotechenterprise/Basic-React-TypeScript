@@ -1,5 +1,5 @@
 import ReactDOM from "react-dom";
-import UserSearch from "./classes/UserSearch";
+import UserSearch from "./ref/UserSearch";
 const users = [
     {name:"Peter", age: 34},
     {name:"Frank", age: 20},
@@ -9,7 +9,7 @@ const users = [
 const App = () => {
     return(
         <div>
-            <UserSearch users={users}/>
+            <UserSearch/>
         </div>
     )
 }
